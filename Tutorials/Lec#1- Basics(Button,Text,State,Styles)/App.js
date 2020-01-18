@@ -5,6 +5,7 @@ export default function App() {
   const [name, setName] = useState("Asad");
 
   const [isToggle, setToggle] = useState(false);
+  // State Toggle on Buton Click
   const onButtonClick = () => {
     console.log(isToggle);
     if (!isToggle == true) {
